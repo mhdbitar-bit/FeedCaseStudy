@@ -10,6 +10,7 @@
 		5DB9A31E2890FC0900498680 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB9A3152890FC0900498680 /* EssentialFeed.framework */; };
 		5DB9A3232890FC0900498680 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB9A3222890FC0900498680 /* EssentialFeedTests.swift */; };
 		5DB9A32E2890FC2500498680 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB9A32D2890FC2500498680 /* FeedItem.swift */; };
+		5DB9A3302890FCD000498680 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB9A32F2890FCD000498680 /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 		5DB9A31D2890FC0900498680 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB9A3222890FC0900498680 /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
 		5DB9A32D2890FC2500498680 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		5DB9A32F2890FCD000498680 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				5DB9A32D2890FC2500498680 /* FeedItem.swift */,
+				5DB9A32F2890FCD000498680 /* FeedLoader.swift */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DB9A3302890FCD000498680 /* FeedLoader.swift in Sources */,
 				5DB9A32E2890FC2500498680 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
