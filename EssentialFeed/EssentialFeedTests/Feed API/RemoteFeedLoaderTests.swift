@@ -110,7 +110,6 @@ class RemoteFeedLoaderTests: XCTestCase {
         client.complete(withStatusCode: 200, data: makeItemJSON([]))
         
         XCTAssertTrue(capturedResults.isEmpty)
-        
     }
     
     // MARK: - Helpers
